@@ -34,10 +34,8 @@ Proyek ini melibatkan analisis Dataset Penjualan E-commerce untuk memahami tren 
 |-- EDA-Sales-Analysis/
     |-- data/                # Dataset folder / Folder dataset
     |-- notebooks/           # Jupyter notebooks for EDA and analysis / Jupyter notebook untuk EDA dan analisis
-    |-- src/                 # Python scripts (if necessary) / Skrip Python (jika perlu)
     |-- output/              # Visualizations and reports / Visualisasi dan laporan
     |-- README.md            # Project overview and details / Ringkasan dan detail proyek
-    |-- requirements.txt     # List of dependencies (if necessary) / Daftar ketergantungan (jika perlu)
 ```
 
 ## Steps of Exploratory Data Analysis (EDA) / Langkah-langkah Analisis Data Eksploratif (EDA)
