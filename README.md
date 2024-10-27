@@ -26,9 +26,9 @@ The main objective of this project is to analyze an e-commerce sales dataset to 
     |-- src/                 # Python scripts (if necessary) / Skrip Python (jika perlu)
     |-- output/              # Visualizations and reports / Visualisasi dan laporan
     |-- README.md            # Project overview and details / Ringkasan dan detail proyek
-    |-- requirements.txt     # List of dependencies (if necessary) / Daftar ketergantungan (jika perlu)
-
+    |-- requirements.txt     # List of dependencies (if necessary) / Daftar ketergantungan (jika perlu) 
 ```
+
 # E-Commerce Sales Analysis
 
 ## Objective
