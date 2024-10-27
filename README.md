@@ -28,136 +28,75 @@ The main objective of this project is to analyze an e-commerce sales dataset to 
     |-- README.md            # Project overview and details / Ringkasan dan detail proyek
     |-- requirements.txt     # List of dependencies (if necessary) / Daftar ketergantungan (jika perlu)
 
+```
+# E-Commerce Sales Analysis
 
-Steps of Exploratory Data Analysis (EDA) / Langkah-langkah Analisis Data Eksploratif (EDA)
-Data Cleaning
+## Objective
+The main objective of this project is to analyze an e-commerce sales dataset to uncover insights and trends, including:
+- **Sales Performance Over Time**: Understanding the sales trends to drive data-based decisions for business improvements.
+- **Best-Selling Products**: Identifying top-performing products based on total revenue and units sold.
+- **Customer Demographics**: Analyzing customer demographics such as age, location, or gender to identify key segments contributing to sales.
+- **Customer Retention**: Analyzing customer retention rates and providing strategies to improve customer loyalty.
 
-Remove or handle missing data.
+## Steps of Exploratory Data Analysis (EDA)
 
-Convert data types (e.g., date formatting).
+### 1. Data Cleaning
+   - Remove or handle missing data.
+   - Convert data types (e.g., date formatting).
+   - Handle outliers and incorrect values.
 
-Handle outliers and incorrect values.
+### 2. Understanding the Data
+   - Get an overview of the dataset (e.g., data types, number of rows, columns).
+   - Summarize the dataset using functions like `df.describe()` and `df.info()`.
 
-Pembersihan Data
+### 3. Univariate Analysis
+   - Analyze individual columns or features.
+   - Example: Distribution of sales in different product categories.
 
-Menghapus atau menangani data yang hilang.
+### 4. Multivariate Analysis
+   - Examine relationships between two or more variables.
+   - Example: Comparing sales amount versus customer age.
 
-Mengonversi tipe data (misalnya, format tanggal).
+### 5. Sales Trend Over Time
+   - Plot sales trends over weeks, months, and years using line plots.
 
-Menangani outlier dan nilai yang salah.
+### 6. Top-Selling Products
+   - Identify top-selling products by total revenue and units sold.
+   - Create bar charts to visualize top categories and products.
 
-Understanding the Data
+### 7. Customer Segmentation
+   - Segment customers based on demographics like age, location, or gender.
+   - Perform group-by operations to understand customer preferences.
 
-Get an overview of the dataset (e.g., data types, number of rows, columns).
+### 8. Geographical Analysis
+   - Analyze customer locations and sales by region.
+   - Visualize sales distribution across cities or regions.
 
-Use df.describe() and df.info() to summarize the dataset.
+### 9. Customer Retention and Churn Analysis
+   - Analyze repeat customers versus one-time customers.
+   - Investigate churn using retention rates.
 
-Memahami Data
+### 10. Correlation Analysis
+   - Examine relationships between numerical variables.
+   - Visualize strong and weak correlations using heatmaps.
 
-Mendapatkan gambaran umum dataset (misalnya, tipe data, jumlah baris, kolom).
+## Tools Used
+- **Python**: 
+  - **Pandas**: For data manipulation and analysis.
+  - **Matplotlib**: For data visualization.
+  - **Seaborn**: For statistical data visualization.
+- **Jupyter Notebook**: For writing code and visualizing results interactively.
+- **Git**: For version control and project collaboration.
+- **GitHub**: For hosting the project repository.
 
-Menggunakan df.describe() dan df.info() untuk merangkum dataset.
+:
 
-Univariate Analysis
 
-Analyze individual columns/features.
-
-Example: Distribution of sales in different product categories.
-
-Analisis Univariate
-
-Menganalisis kolom/fitur individu.
-
-Contoh: Distribusi penjualan dalam berbagai kategori produk.
-
-Multivariate Analysis
-
-Analyze relationships between two or more variables.
-
-Example: Sales amount vs. customer age.
-
-Analisis Multivariate
-
-Menganalisis hubungan antara dua atau lebih variabel.
-
-Contoh: Jumlah penjualan vs. umur pelanggan.
-
-Sales Trend Over Time
-
-Plot sales trends over weeks, months, and years.
-
-Visualize sales by day or month using line plots.
-
-Tren Penjualan Seiring Waktu
-
-Memplot tren penjualan selama minggu, bulan, dan tahun.
-
-Memvisualisasikan penjualan per hari atau bulan menggunakan grafik garis.
-
-Top-Selling Products
-
-Identify top-selling products by total revenue and units sold.
-
-Create bar charts to visualize top categories and products.
-
-Produk Terlaris
-
-Mengidentifikasi produk terlaris berdasarkan total pendapatan dan unit yang terjual.
-
-Membuat grafik batang untuk memvisualisasikan kategori dan produk teratas.
-
-Customer Segmentation
-
-Segment customers based on demographics such as age, location, or gender.
-
-Perform group-by operations to understand customer preferences.
-
-Segmentasi Pelanggan
-
-Mensegmentasikan pelanggan berdasarkan demografi seperti umur, lokasi, atau jenis kelamin.
-
-Melakukan operasi group-by untuk memahami preferensi pelanggan.
-
-Geographical Analysis
-
-Analyze customer locations and sales by region.
-
-Visualize sales distribution across different cities or regions.
-
-Analisis Geografis
-
-Menganalisis lokasi pelanggan dan penjualan berdasarkan wilayah.
-
-Memvisualisasikan distribusi penjualan di berbagai kota atau wilayah.
-
-Customer Retention and Churn Analysis
-
-Analyze repeat customers vs. one-time customers.
-
-Investigate customer churn using retention rates.
-
-Analisis Retensi dan Churn Pelanggan
-
-Menganalisis pelanggan yang berulang vs. pelanggan satu kali.
-
-Menyelidiki churn pelanggan menggunakan tingkat retensi.
-
-Correlation Analysis
-
-Examine relationships between numerical variables.
-
-Use correlation heatmaps to visualize strong and weak correlations.
-
-Analisis Korelasi
-
-Memeriksa hubungan antara variabel numerik.
-
-Menggunakan heatmap korelasi untuk memvisualisasikan korelasi yang kuat dan lemah.
 
 Visualizations / Visualisasi
 Sales Distribution by Product Line / Distribusi Penjualan Berdasarkan Kategori Produk:
 KDE plot showing sales distribution across product lines.
-
+``` bash
 python
 Copy code
 plt.figure(figsize=(10,6))
@@ -210,7 +149,9 @@ Implementasikan segmentasi pelanggan untuk pemasaran yang terarah.
 Fokus pada wilayah dengan potensi penjualan tinggi berdasarkan wawasan demografi.
 
 Buat strategi promosi untuk produk yang kurang laku untuk meningkatkan pendapatan keseluruhan.
+```
 
+``` bash
 How to Run the Project / Cara Menjalankan Proyek
 Clone the repository:
 
@@ -246,11 +187,6 @@ Instal ketergantungan yang diperlukan (jika diperlukan):
 
 bash
 Copy code
-pip install -r requirements.txt
-Buka Jupyter notebook dan jalankan analisis:
-
-bash
-Copy code
 jupyter notebook
 Notes / Catatan
 Dataset: The dataset used for this analysis can be found in the data/ folder.
@@ -260,3 +196,4 @@ Further Improvements: Future work may involve deeper analysis of customer lifeti
 Dataset: Dataset yang digunakan untuk analisis ini dapat ditemukan di folder data/.
 
 Perbaikan Lebih Lanjut: Pekerjaan mendatang dapat melibatkan analisis yang lebih mendalam tentang nilai umur pelanggan (CLV) dan pemodelan prediktif.
+```
